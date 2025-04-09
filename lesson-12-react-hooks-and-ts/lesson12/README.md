@@ -1,14 +1,17 @@
-# Lesson 12 - React TypeScript Project
+# Lesson 12: React Hooks and TypeScript
 
-This project is a React application built with TypeScript, demonstrating component-based architecture and basic functionality. It serves as a learning example for Lesson 11, focusing on React components, TypeScript integration, and application structure.
+## Overview
 
-## Features
+In this lesson, we learn how to use React hooks with TypeScript. We cover the following hooks: `useState`, `useEffect`, `useCallback`, `useMemo`, and `useRef`. TypeScript is used to define types for state, functions, and references, providing type safety and improved maintainability.
 
-- **Counter**: A component demonstrating state management with increment/decrement functionality
-- **Heading**: A reusable component for displaying headings
-- **List**: A component for rendering lists of items
-- **Section**: A wrapper component for organizing content sections
+## Key Concepts
 
-## Demo
+- **useState**: Manages component state with explicit types.
+- **useEffect**: Handles side effects, like fetching data or logging, and can run on mount, unmount, or when specific dependencies change.
+- **useRef**: Creates a persistent reference to a DOM element or value without triggering re-renders.
+- **useCallback**: Memoizes functions to prevent unnecessary re-creations, improving performance.
+- **useMemo**: Memoizes computed values, recalculating them only when dependencies change, optimizing expensive calculations.
 
-![Demo](./public/demo.png)
+## Conclusion
+
+This lesson demonstrates how React hooks integrate with TypeScript to build type-safe and efficient React components. By using hooks effectively, we can manage state, side effects, and optimize performance in our applications.
